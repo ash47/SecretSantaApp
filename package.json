@@ -1,0 +1,23 @@
+{
+  "name": "secret_santa_app",
+  "version": "1.0.0",
+  "description": "This is an app to run a secret santa type thingo.",
+  "main": "step1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ash47/SecretSantaApp.git"
+  },
+  "author": "Ashley Schmid",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ash47/SecretSantaApp/issues"
+  },
+  "homepage": "https://github.com/ash47/SecretSantaApp#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.8",
+    "node-rsa": "^0.4.2"
+  }
+}

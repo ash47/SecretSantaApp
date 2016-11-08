@@ -1,0 +1,69 @@
+body {
+	background: #EEE;
+}
+
+.containEverything {
+	width: 100%;
+}
+
+.formMainEntryContainer {
+	display: inline-block;
+
+	width: 968px;
+
+	position: absolute;
+	top: 8px;
+	left: calc(50% - 484px);
+}
+
+.textMainHeader {
+	font-weight: bold;
+	font-size: 48px;
+	text-align: center;
+}
+
+.formMainEntry {
+	border: 1px solid #000;
+	border-radius: 8px;
+	background: #FFF;
+	display: inline-block;
+
+	padding: 8px;
+
+	width: 480px;
+
+	cursor: pointer;
+	cursor: hand;
+}
+
+.formMainEntry:hover {
+	background: #BFB;
+}
+
+.formMainEntry h1 {
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	margin: 0px;
+}
+
+.formMainEntry p {
+	font-size: 20px;
+	text-align: center;
+	margin: 0px;
+}
+
+.signupCon {
+	border: 1px solid #000;
+	border-radius: 8px;
+	padding: 8px;
+	background: #FFF;
+	width: 480px;
+	position: absolute;
+	top: 72px;
+	left: calc(50% - 240px);
+}
+
+.daRules {
+	margin-left: 32px;
+}
