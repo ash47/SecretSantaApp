@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ash47/SecretSantaApp#readme",
   "dependencies": {
     "crypto-js": "^3.1.8",
-    "node-rsa": "^0.4.2"
+    "node-rsa": "^0.4.2",
+    "readline-sync": "^1.4.5"
   }
 }
