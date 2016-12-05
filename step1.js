@@ -6,6 +6,7 @@ var inputModule = require('./secret_input.js');
 
 var outputDir = './output/';
 var webappFileName = 'webapp.htm';
+var webappFileNameJS = 'webapp_loader.js';
 
 var encryptedConfigFile = path.join(outputDir, 'encryptedConfig.txt');
 
@@ -130,3 +131,6 @@ for(var i=0; i<embedCSS.length; ++i) {
 }
 
 fs.writeFileSync(path.join(outputDir, webappFileName), headers);
+
+var jsOutput = 'document.write(atob("' + base64Encode(headers) + '"));';
+fs.writeFileSync(path.join(outputDir, webappFileNameJS), jsOutput);
